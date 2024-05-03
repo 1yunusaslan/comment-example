@@ -14,16 +14,33 @@
                 <img src="./assets/img/kedi.jpg " alt="">
             </div>
             <div class="comment-value">
-                <p>Like</p>
-                <p>Dislike</p>
-                <p>Bookmark</p>
-
+                <div class="comment-value-layout">
+                    <label id="like-count">0</label>
+                    <p>Like</p>
+                </div>
+                <div class="comment-value-layout">
+                    <label id="dislike-count">0</label>
+                    <p>Dislike</p>
+                </div>
+                <div class="comment-value-layout">
+                    <label id="bookmark-count">0</label>
+                    <p>Bookmark</p>
+                </div>
             </div>
             <div class="comment-buttons">
-                <img src="./assets/img/buttons/like_button.png" alt="">
-                <img src="./assets/img/buttons/dislike_button.png" alt="">
-                <img src="./assets/img/buttons/bookmark_button.png" alt="">
-                <img src="./assets/img/buttons/share_button.png" alt="">    
+                <button id="likeButton"><img src="./assets/img/buttons/like_button.png" alt=""></button> 
+                <button id="dislikeButton"><img src="./assets/img/buttons/dislike_button.png" alt=""></button>
+                <button id="bookmarkButton"><img src="./assets/img/buttons/bookmark_button.png" alt=""></button>
+                <button id="shareButton"><img src="./assets/img/buttons/share_button.png" alt=""></button>  
+            </div>
+            <div class="comment-main">
+                <div class="comment-main-input">
+                    <input type="text" name="comment" id="comment-input" placeholder="Yanıtı gönder">
+                </div>
+                <div class="comment-main-button">
+                    <button id="comment-button">Yanıtla</button>
+                </div>
+
             </div>
 
         </div>
